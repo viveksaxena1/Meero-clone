@@ -3,10 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
 .wrapperclass{
   margin-left: 135px;
   margin-right: 135px;
 }
+
+
 body{
   /* line-height: 1.5rem; */
   font-family: Avalon, ‘Montserrat’, sans-serif;
@@ -14,13 +18,15 @@ body{
   font-size: 14.9px;
   /* font-style: none; */
 }
+
+/* 1st Section */
+
 nav{
   display: flex;
   width:auto;
   padding: 1rem;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .navbar-right{
@@ -58,7 +64,6 @@ ul li{
   border-radius: 20px;
   border: none;
   border-color: white;
-
 }
 
 .button2{
@@ -71,7 +76,10 @@ ul li{
   border-color: #00a295;
 }
 
+
+/* 2nd Section */
 /* background-iamge styling */
+
 .landing-page-container {
   /* background-image: url("E:\Digital Project\Meero Clone\backgroung_image_1.jpg"); */
   background-image: url('E:/Digital Project/Meero Clone/img/bg5.jpeg');
@@ -96,14 +104,18 @@ ul li{
   /* padding: 5rem; */
 }
 .landing-page-right h1{
-  margin-bottom: 10px;
+  margin-bottom: 2rem;
   font-size: 50px;
   font-style: none;
 
 }
 .landing-page-right p{
+  margin-top: 3rem;
   margin-bottom: 10px;
   font-size: 28px;
+}
+.landing-page-buttons{
+  margin-top: 3rem;
 }
 .landing-page-button1{
   font-size: 19px;
@@ -132,16 +144,38 @@ ul li{
   width: 6rem;
 }
 
+/* 3rd Section */
+
 .talent-container{
   display: flex;
-
+  /* gap:30px; */
   align-items: center;
   justify-content: center;
 }
 
-h2{
-  font-size: 30PX;
+.talent-text h2{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
+.talent-text h3{
+  margin-top: 0;
+  text-align: center;
+  font-weight: 400;
+}
+
+.span1{
+  color: #00a295;
+}
+.span2{
+  color:#dd5f5c
+}
+.span3{
+  color: #ffb126;
+}
+/* .g-color{
+  color:grey;
+} */
 
 .button-class{
   margin-left: 45%;
@@ -149,6 +183,7 @@ h2{
 }
 
 .find-button{
+  margin: 3rem auto;
   font-size: 19px;
   color: white;
   height: 45px;
@@ -158,3 +193,47 @@ h2{
   background-color: #00a295;
   border-color: #00a295;
 }
+
+.cards{
+  margin-left: 300px;
+  margin-right: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:7rem;
+}
+
+.cards img{
+  margin-bottom: 3rem;
+}
+.card-txt-container{
+  margin-top: 1.5rem;
+
+}
+.card1{
+  width: 30rem;
+  height: 35rem;
+  text-align: center;
+  font-size: 17px;
+}
+
+.card2{
+  width: 30rem;
+  height: 35rem;
+  text-align: center;
+  font-size: 17px;
+
+}
+.card3{
+  width: 30rem;
+  height: 35rem;
+  text-align: center;
+  font-size: 17px;
+}
+.heading{
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  font-weight: 550;
+}
+
+/* 6th Section */
