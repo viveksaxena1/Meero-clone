@@ -115,9 +115,13 @@ ul li{
   font-size: 28px;
 }
 .landing-page-buttons{
+<<<<<<< HEAD
 
   margin-top: 3rem;
 
+=======
+  margin-top: 3rem;
+>>>>>>> 0f76cb62a04314c18b41f0b421c722a172ab331c
 }
 .landing-page-button1{
   font-size: 19px;
@@ -160,6 +164,24 @@ ul li{
   text-align: center;
   font-size: 2.5rem;
   font-weight: 700;
+<<<<<<< HEAD
+}
+.talent-text h3{
+  margin-top: 0;
+  text-align: center;
+  font-weight: 400;
+}
+
+.span1{
+  color: #00a295;
+}
+.span2{
+  color:#dd5f5c
+}
+.span3{
+  color: #ffb126;
+=======
+>>>>>>> 0f76cb62a04314c18b41f0b421c722a172ab331c
 }
 .talent-text h3{
   margin-top: 0;
@@ -176,6 +198,9 @@ ul li{
 .span3{
   color: #ffb126;
 }
+/* .g-color{
+  color:grey;
+} */
 
 .button-class{
   display: flex;
@@ -196,6 +221,7 @@ ul li{
 }
 
 .cards{
+<<<<<<< HEAD
   margin: auto;
   display: flex;
   align-items: center;
@@ -203,6 +229,14 @@ ul li{
   width: 90rem;
   height: 35rem;
   gap:10rem;
+=======
+  margin-left: 300px;
+  margin-right: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:7rem;
+>>>>>>> 0f76cb62a04314c18b41f0b421c722a172ab331c
 }
 
 .cards img{
@@ -213,7 +247,10 @@ ul li{
 
 }
 .card1{
+<<<<<<< HEAD
   /* display: flex; */
+=======
+>>>>>>> 0f76cb62a04314c18b41f0b421c722a172ab331c
   width: 30rem;
   height: 35rem;
   text-align: center;
